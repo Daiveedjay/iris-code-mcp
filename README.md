@@ -59,3 +59,5 @@ Analysis runs locally. The server has no general shell-execution tool. Secret va
 ## Registry metadata release
 
 Version `0.2.2` adds the official MCP Registry ownership name `io.github.Daiveedjay/iris-code`. Launcher behavior and the CLI dependency range are unchanged. The npm package's repository URL identifies the existing private release owner because npm trusted publishing requires it to match the workflow repository. This public repository supplies launcher source and documentation; npm publication still runs from the private release workflow.
+
+Official MCP Registry identity: **`io.github.Daiveedjay/iris-code`**, published version `0.2.2`. [Verify the public registry metadata](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.Daiveedjay%2Firis-code). The entry uses local stdio transport, not a hosted endpoint.
