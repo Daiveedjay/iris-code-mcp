@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Daiveedjay/iris-code",
+  "title": "Iris Code",
+  "description": "Local code-quality rules, findings, preview-first safe fixes and gate results for coding agents.",
+  "version": "0.2.2",
+  "websiteUrl": "https://www.iriscode.co/mcp",
+  "icons": [
+    {
+      "src": "https://www.iriscode.co/iris-icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["512x512"]
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@iris-code/mcp",
+      "version": "0.2.2",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/Daiveedjay/iris-code-mcp",
+    "source": "github"
+  }
+}

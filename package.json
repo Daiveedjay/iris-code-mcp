@@ -1,0 +1,39 @@
+{
+  "name": "@iris-code/mcp",
+  "version": "0.2.2",
+  "description": "Iris Code MCP server - give your AI agent your project's real code-health rules",
+  "bin": {
+    "iris-mcp": "bin/iris-mcp.js"
+  },
+  "files": [
+    "bin/iris-mcp.js",
+    "README.md"
+  ],
+  "dependencies": {
+    "@iris-code/cli": "^1.29.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "homepage": "https://www.iriscode.co/mcp",
+  "bugs": {
+    "url": "https://www.iriscode.co/support"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Daiveedjay/iris-code-mcp"
+  },
+  "keywords": [
+    "mcp",
+    "model context protocol",
+    "claude",
+    "cursor",
+    "windsurf",
+    "code quality",
+    "code health",
+    "static analysis",
+    "ai agent"
+  ],
+  "mcpName": "io.github.Daiveedjay/iris-code"
+}
