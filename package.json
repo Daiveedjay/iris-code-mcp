@@ -1,6 +1,7 @@
 {
   "name": "@iris-code/mcp",
   "version": "0.2.2",
+  "mcpName": "io.github.Daiveedjay/iris-code",
   "description": "Iris Code MCP server - give your AI agent your project's real code-health rules",
   "bin": {
     "iris-mcp": "bin/iris-mcp.js"
@@ -22,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Daiveedjay/iris-code-mcp"
+    "url": "https://github.com/Daiveedjay/Iris-VSCode-Extension"
   },
   "keywords": [
     "mcp",
@@ -34,6 +35,5 @@
     "code health",
     "static analysis",
     "ai agent"
-  ],
-  "mcpName": "io.github.Daiveedjay/iris-code"
+  ]
 }

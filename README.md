@@ -56,4 +56,6 @@ Analysis runs locally. The server has no general shell-execution tool. Secret va
 - [Privacy](https://www.iriscode.co/privacy)
 - [Terms](https://www.iriscode.co/terms)
 
-The prepared `0.2.2` metadata adds the official MCP Registry ownership field. That version is not published until the maintainer completes the package release; the install command above resolves the current published npm version.
+## Registry metadata release
+
+Version `0.2.2` adds the official MCP Registry ownership name `io.github.Daiveedjay/iris-code`. Launcher behavior and the CLI dependency range are unchanged. The npm package's repository URL identifies the existing private release owner because npm trusted publishing requires it to match the workflow repository. This public repository supplies launcher source and documentation; npm publication still runs from the private release workflow.
